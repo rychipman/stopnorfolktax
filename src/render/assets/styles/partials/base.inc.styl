@@ -1,0 +1,120 @@
+html
+    height 100%
+
+body
+    //edit()
+    font-family "Open Sans"
+    padding 0
+    margin 0
+    height 100%
+
+a
+    color $accent
+    text-decoration none
+    &:visited
+        color $accent
+    &:hover
+        color $accent
+        text-decoration underline
+
+h1
+    font-size 6rem
+    line-height 6rem
+    font-weight 700
+    col(1)
+    text-align center
+    margin 2rem 0 2rem 0
+
+h2
+    font-size 3rem
+    line-height 3rem
+    font-weight 700
+    text-align center
+    margin 0 0 1rem 0
+
+h3
+    font-size 2rem
+    line-height 2rem
+    font-weight 300
+    text-align center
+    margin 1rem 0 2rem 0
+
+h4
+    font-size 1.5rem
+    line-height 1.5rem
+    font-weight 600
+    text-align left
+    margin 0 0 0 0
+
+p
+    font-size 1.1rem
+    line-height 2rem
+    margin 0 0 1.5rem 0
+
+a.button
+    display inline-block
+    border none
+    padding 1rem 1.6rem 1rem 1.6rem
+    margin 3rem auto 0 auto
+    background-color $accent
+    font-weight 400
+    color $light
+    font-size 1.3rem
+    &:hover
+        text-decoration none
+        background-color $accent-dark
+
+span.red
+    color red
+
+.section
+    padding 4rem 0 5rem 0
+    h1, h2, h4
+        color $header
+    h3, p, i
+        color $text
+    &#home
+        padding-top 0
+        padding-bottom 0
+        min-height 100%
+        h1
+            color $display-light
+        h3
+            font-size 2.8rem
+    &#contact
+        padding-bottom 0
+
+.dark
+    background-color $dark-bg
+
+.light
+    background-color $light-bg
+
+.content-box
+    center()
+    max-width 70rem
+    text-align center
+    padding 0 2rem 0 2rem
+
+.text-area
+    center()
+    max-width 46rem
+    padding 0 3rem 0 3rem
+    p
+        text-align justify
+        text-align-last left
+        &.short
+            text-align center
+            text-align-last center
+
+.work-grid
+    max-width 60rem
+    margin 0 auto 0 auto
+    .work-thumb
+        box-sizing border-box
+        span(1/2, cycle: 2)
+        padding 6px
+        img
+            width 100%
+            border 2px solid $accent
+            vertical-align topcontent '\A'

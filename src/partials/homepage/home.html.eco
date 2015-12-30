@@ -1,0 +1,3 @@
+<%- @partial('header') %>
+<h1><span class='red'>STOP</span> NORFOLK TAX</h1>
+<h3>Demand fiscal responsibility</h3>
