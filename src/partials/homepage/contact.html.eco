@@ -3,7 +3,7 @@
 <h3>Learn more or help out!</h3>
 
 <div class="text-area">
-  <p>If you're interested in lending a hand, there are lots of ways you can help out, both big and small. You can help spread the message by liking us on Facebook and sharing this page with your friends. If you want to help distribute informational materials, hold signs, or come to meetings, check out our Upcoming Events page.</p>
+  <p>If you're interested in lending a hand, there are lots of ways you can help out, both big and small. You can help spread the message by liking us on Facebook and sharing this page with your friends.</p>
 </div>
 
 <%- @partial('footer') %>
