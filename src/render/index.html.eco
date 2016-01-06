@@ -21,9 +21,9 @@ title: "main page"
     </div>
 </div>
 
-<div id='resources' class='section dark'>
+<div id='facts' class='section dark'>
     <div class='content-box'>
-        <%- @partial('homepage/resources') %>
+        <%- @partial('homepage/facts') %>
     </div>
 </div>
 
