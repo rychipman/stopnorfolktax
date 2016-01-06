@@ -15,6 +15,9 @@
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
-    "start": "node_modules/.bin/docpad-server"
+    "start": "node_modules/.bin/docpad-server",
+    "watch": "node_modules/.bin/docpad run",
+    "clean": "rm -rf out/",
+    "build": "node_modules/.bin/docpad generate"
   }
 }
