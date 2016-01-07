@@ -15,19 +15,25 @@ title: "main page"
     </div>
 </div>
 
-<div id='why' class='section light'>
+<div id='what' class='section light'>
+    <div class='content-box'>
+        <%- @partial('homepage/what') %>
+    </div>
+</div>
+
+<div id='why' class='section dark'>
     <div class='content-box'>
         <%- @partial('homepage/why') %>
     </div>
 </div>
 
-<div id='facts' class='section dark'>
+<div id='facts' class='section light'>
     <div class='content-box'>
         <%- @partial('homepage/facts') %>
     </div>
 </div>
 
-<div id='contact' class='section light'>
+<div id='contact' class='section dark'>
     <div class='content-box'>
         <%- @partial('homepage/contact') %>
     </div>
