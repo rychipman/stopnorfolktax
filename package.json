@@ -18,6 +18,8 @@
     "start": "node_modules/.bin/docpad-server",
     "watch": "node_modules/.bin/docpad run",
     "clean": "rm -rf out/",
-    "build": "node_modules/.bin/docpad generate"
+    "build": "node_modules/.bin/docpad generate",
+    "deploy": "rsync -avz --delete ./out/ delta:stopnorfolktax/site",
+    "stage": "rsync -avz --delete ./out/ delta:stopnorfolktax-staging/site"
   }
 }
