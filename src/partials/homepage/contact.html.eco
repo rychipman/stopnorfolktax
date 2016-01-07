@@ -3,7 +3,7 @@
 <h3>Learn more or help out!</h3>
 
 <div class="text-area">
-  <p>If you're interested in lending a hand, there are lots of ways you can help out, both big and small. You can help spread the message by liking us on Facebook and sharing this page with your friends.</p>
+  <p>Time is of the essence, so if you feel strongly about this important town issue, you can help out by raising awareness in Norfolk. You can spread the message by liking us on Facebook and sharing this page with your friends.</p>
 </div>
 
 <%- @partial('footer') %>
